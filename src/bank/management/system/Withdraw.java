@@ -5,6 +5,8 @@ import java.awt.Font;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.SQLException;
 
 import javax.swing.JButton;
 import javax.swing.JFrame;
@@ -62,13 +64,28 @@ public class Withdraw extends JFrame implements ActionListener {
 	public void actionPerformed(ActionEvent e) {
 		
 		String withdrawingAmount = "";
+		int balance = 0;
 		
 		if(e.getSource() == back) {
-			setVisible(false);
-			new bankingPage(0,0).setVisible(true);
+			
+			ConnectionC conn = new ConnectionC();
+			String query = "Select ChequingBalance from balance WHERE AccountNumber ='"+this.accountNumber+"'";	
+			
+			try {
+				ResultSet rs = conn.st.executeQuery(query);
+				if(rs.next())
+					balance = Integer.parseInt(rs.getString("ChequingBalance"));
+				setVisible(false);
+				new bankingPage(balance,this.accountNumber).setVisible(true);
+			} catch (SQLException ex) {
+				JOptionPane.showMessageDialog(null,ex.toString());
+			}
+			
+			
 		}
 		
 		if(e.getSource() == withdraw) {
+			
 			if(amount.getText().equals(""))
 				JOptionPane.showMessageDialog(null, "Enter a number between 5 and 9999");
 			else if(Integer.parseInt(amount.getText()) < 5 || Integer.parseInt(amount.getText()) > 9999) {
@@ -88,6 +105,7 @@ public class Withdraw extends JFrame implements ActionListener {
 				}
 				
 			}
+			amount.setText("");
 		}
 		
 	}
