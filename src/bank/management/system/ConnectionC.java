@@ -8,7 +8,7 @@ public class ConnectionC {
 	Statement st;
 	public ConnectionC() {
 		try {
-		c = DriverManager.getConnection("jdbc:mysql:///bank_management_database", "root", "Heybuddy88,");
+		c = DriverManager.getConnection("jdbc:mysql:///bank_management_database", "root", "");
 		st = c.createStatement();
 		}catch(Exception e) {
 			System.out.println(e);
