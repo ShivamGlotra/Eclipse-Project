@@ -117,7 +117,7 @@ public class Login extends JFrame implements ActionListener{
 				
 			}
 			else {
-				userN = cardValue.getText();
+				userN = cardValue.getText().toLowerCase();
 				passW =passwordValue.getText();
 				ConnectionC conn = new ConnectionC();
 				String query = "Select * from finalSignupInfo WHERE userName ='"+userN+"' and passwordValue = '"+passW+"'";
