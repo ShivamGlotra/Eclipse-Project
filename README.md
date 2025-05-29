@@ -1,4 +1,4 @@
-# Bank Management App (JavaFX, Eclipse)
+# Transaction Management App (JavaFX, Eclipse)
 
 A simple GUI Banking application built in JavaFX, serving as a prototype for a login and transaction management app. Users can create accounts, log in, check balances, and perform withdrawals or deposits. All data is stored in a MySQL database.
 
