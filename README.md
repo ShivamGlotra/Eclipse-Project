@@ -52,6 +52,16 @@ A simple GUI Banking application built in JavaFX, serving as a prototype for a l
 
 ## Screenshots of the application
   ![image](https://github.com/user-attachments/assets/05305dd7-d240-4ae7-882b-87aed6b5c4f4)
+  ![image](https://github.com/user-attachments/assets/ef3ddeec-2260-472a-b0d0-c2288d116c38)
+  ![image](https://github.com/user-attachments/assets/e87d837e-7808-45ae-aac1-5141103de59d)
+  ![image](https://github.com/user-attachments/assets/a514fe51-23cd-48cd-afcd-020195858318)
+  ![image](https://github.com/user-attachments/assets/1475ed50-0ee1-4503-8ad8-df50b46a7a44)
+  ![image](https://github.com/user-attachments/assets/714929d7-3314-43c1-b443-92c1b67d4289)
+  ![image](https://github.com/user-attachments/assets/540b12f1-5490-495d-83c5-f91a1d9baec8)
+  ![image](https://github.com/user-attachments/assets/24d9a62c-858a-427d-bcbc-9cef6fa58504)
+  ![image](https://github.com/user-attachments/assets/57bea594-3467-493d-b2c6-95bfe580b380)
+  ![image](https://github.com/user-attachments/assets/0cdd7192-2410-4003-8b3c-56694a534405)
+  ![image](https://github.com/user-attachments/assets/889fb621-4782-4206-8873-d4855807e0bf)
 
 
 ## Author
