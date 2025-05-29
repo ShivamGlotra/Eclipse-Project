@@ -50,6 +50,10 @@ A simple GUI Banking application built in JavaFX, serving as a prototype for a l
 - **jcalendar:** For date selection components.
 - **mysql-connector-java:** For connecting Java to MySQL databases.
 
+## Screenshots of the application
+  ![image](https://github.com/user-attachments/assets/05305dd7-d240-4ae7-882b-87aed6b5c4f4)
+
+
 ## Author
 
 Made by Shivam Glotra while self-learning via the web and books.
